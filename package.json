@@ -1,0 +1,17 @@
+{
+  "name": "apex-capital-backend",
+  "version": "1.0.0",
+  "description": "APEX Capital Investment Platform with Real-time API Backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build needed'"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {},
+  "keywords": ["investment", "trading", "api"],
+  "author": "LODER94",
+  "license": "MIT"
+}
