@@ -1,11 +1,11 @@
 {
   "version": 2,
   "builds": [
-    { "src": "api/fetch.js", "use": "@vercel/node" }
+    { "src": "api/fetch.js", "use": "@vercel/node" },
+    { "src": "index.html", "use": "@vercel/static" }
   ],
   "routes": [
     { "src": "/api/(.*)", "dest": "api/fetch.js" },
-    { "handle": "filesystem" },
     { "src": "/(.*)", "dest": "/$1" }
   ]
 }
